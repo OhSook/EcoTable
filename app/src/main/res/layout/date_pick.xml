@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/vDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+
+    <Button
+        android:id="@+id/vDateEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B5D6A1"
+        android:onClick="mOnClick"
+        android:text="확인"
+        android:textColorHighlight="#C8E6C9"
+        android:textColorLink="#B9F484"
+        app:cornerRadius="4dp" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:outlineAmbientShadowColor="#8F8F8F">
+
+    <TextView
+        android:id="@+id/borderline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#956666"
+        android:backgroundTint="#D3AB9E"
+        android:outlineAmbientShadowColor="#9D8383"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/saveBtn"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:background="#C8D3BA"
+        android:fontFamily="@font/pu"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/expDate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameSpace"
+        android:layout_width="129dp"
+        android:layout_height="105dp"
+        android:fontFamily="@font/pu"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:hint="이름"
+        android:text="green onion"
+        android:textColor="#ADB5A3"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/expDate"
+        android:layout_width="191dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/pu"
+        android:gravity="center"
+        android:hint="Enter the exp date"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameSpace"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

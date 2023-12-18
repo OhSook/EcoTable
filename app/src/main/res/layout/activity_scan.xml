@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22E7E8DF"
+
+    tools:context=".ScanActivity">
+
+
+    <ImageView
+        android:id="@+id/foodView"
+        android:layout_width="380dp"
+        android:layout_height="328dp"
+        android:background="#D5E0C9"
+        android:onClick="selectImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="145dp"
+        android:layout_height="47dp"
+        android:background="#D3DEC6"
+        android:fontFamily="@font/pu"
+        android:onClick="selectImage"
+        android:text="get img"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/foodView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/predictBtn"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:background="#D3DEC6"
+        android:fontFamily="@font/pu"
+        android:onClick="predict"
+        android:text="predict"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodView"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#CDE8EEE2"
+        android:fontFamily="@font/pu"
+        android:gravity=""
+        android:text=""
+        android:textColor="#A6C8A7"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/foodView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="@font/pu"
+        android:gravity="center"
+        android:text="EcoTable"
+        android:textColor="#A6C8A7"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/foodView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="422dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/predictBtn"
+        app:srcCompat="@drawable/wave"
+        tools:layout_editor_absoluteX="-6dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#DBE4D1"
+        android:fontFamily="@font/pu"
+        android:gravity=""
+        android:textColor="#DBE4D1"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="54dp"
+        android:onClick="onClickedRefrig"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/refrigerator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
