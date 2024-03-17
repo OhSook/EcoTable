@@ -1,4 +1,4 @@
-## The Eco Table Project
+## 🍽️The Eco Table Project
 
 ⅰ. 사용언어 : JAVA(JDK 17), SQL, Python
 
@@ -80,7 +80,7 @@ _i. beta testing_
 
 ### 시연영상
 
-#### 사용자용 APP
+https://github.com/OhSook/EcoTable/assets/62128698/a2b6380f-8097-4683-8ab3-d374556afe36
 
 
 
