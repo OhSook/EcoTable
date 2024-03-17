@@ -10,3 +10,4 @@
 
 **a. 어플리케이션 제작 동기**
 
+![img](https://github.com/OhSook/EcoTable/assets/62128698/508c17b9-e86a-47d2-98fd-6416e7e6e8bb)
