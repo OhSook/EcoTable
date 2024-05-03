@@ -8,6 +8,18 @@
 
 ### 서론
 
+**역할**
+
+ⅰ. 데이터 크롤링
+
+ⅱ. APP 개발
+
+ⅲ. 모델 학습 보조
+
+
+
+
+
 **a. 어플리케이션 제작 동기**
 
 <img src="https://github.com/OhSook/EcoTable/assets/62128698/508c17b9-e86a-47d2-98fd-6416e7e6e8bb" width="500" height="300"/>
